@@ -36,9 +36,31 @@ La arquitectura separa una API REST desarrollada con **FastAPI** de una aplicaci
 
 ## 📸 Vista previa del sistema
 
-Las capturas muestran el diseño y las principales pantallas del sistema. Se incluyen vistas del **inicio de sesión**, **resumen administrativo**, **odontograma digital** y **programación de citas**.
+### Inicio de sesión
 
-> Las capturas originales se incorporarán a `docs/screenshots/` tras su publicación en el repositorio. No se incluyen aquí enlaces a imágenes que aún no estén disponibles.
+Acceso a la plataforma mediante los datos de la clínica y las credenciales de usuario.
+
+![Pantalla de inicio de sesión de SIS Odontología](docs/screenshots/01-login.webp)
+
+### Panel principal
+
+Resumen administrativo y acceso a los módulos de gestión clínica y financiera.
+
+![Panel principal de SIS Odontología](docs/screenshots/02-resumen.webp)
+
+### Odontograma digital
+
+Visualización de la dentición y registro de condiciones odontológicas para el seguimiento del paciente.
+
+![Odontograma digital de SIS Odontología](docs/screenshots/03-odontograma.webp)
+
+### Agenda de citas
+
+Formulario para programar una atención con paciente, profesional, sede, fecha, horario y observaciones.
+
+![Formulario de nueva cita de SIS Odontología](docs/screenshots/04-nueva-cita.webp)
+
+*Capturas realizadas en el entorno de demostración del proyecto.*
 
 ## 🛠️ Tecnologías
 
