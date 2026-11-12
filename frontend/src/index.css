@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{body{@apply m-0 bg-slate-50 text-slate-800 antialiased}button,input,select{@apply outline-none}button:focus-visible,input:focus-visible{@apply ring-2 ring-marca-500 ring-offset-2}}
+@layer components{.campo{@apply w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm shadow-sm transition focus:border-marca-500}.boton{@apply inline-flex items-center justify-center rounded-xl bg-marca-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-marca-700 disabled:opacity-50}.boton-sec{@apply inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold hover:bg-slate-50}.tarjeta{@apply rounded-2xl border border-slate-200 bg-white p-5 shadow-sm}.etiqueta{@apply mb-1.5 block text-sm font-medium text-slate-700}}
+

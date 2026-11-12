@@ -1,0 +1,5 @@
+export const COLORES:Record<string,string>={sano:'#ecfdf5',caries:'#ef4444',obturado:'#3b82f6',endodoncia:'#8b5cf6',extraccion:'#111827',ortodoncia:'#06b6d4',corona:'#f59e0b',implante:'#64748b',protesis:'#ec4899',periodontal:'#f97316',ausente:'#cbd5e1',retenido:'#a855f7',sin_erupcionar:'#e2e8f0'};
+export const ETIQUETAS:Record<string,string>={sano:'Sano',caries:'Caries',obturado:'Obturado',endodoncia:'Endodoncia',extraccion:'Extracción',ortodoncia:'Ortodoncia',corona:'Corona',implante:'Implante',protesis:'Prótesis',periodontal:'Periodontal',ausente:'Ausente',retenido:'Retenido',sin_erupcionar:'Sin erupcionar'};
+export const SUPERFICIES=['oclusal','mesial','distal','vestibular','lingual','palatina'];
+export const ESTADOS=['pendiente','en_tratamiento','finalizado','suspendido','cancelado'];
+export type Pieza={id:number;odontograma_id?:number;numero_pieza:number;condicion:string;estado_tratamiento:string;observaciones?:string;tipo_pieza:string;estado_erupcion:string;estado_pieza:string;perdida_prematura:boolean;numero_pieza_sucesora?:number};

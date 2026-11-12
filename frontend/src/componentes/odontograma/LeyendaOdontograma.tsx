@@ -1,0 +1,1 @@
+import{COLORES,ETIQUETAS}from'./configuracion';export default function LeyendaOdontograma(){return <div className="flex flex-wrap gap-x-4 gap-y-2">{Object.entries(ETIQUETAS).map(([k,v])=><span className="flex items-center gap-2 text-xs text-slate-600" key={k}><i className="h-3 w-3 rounded-full border" style={{background:COLORES[k]}}/>{v}</span>)}</div>}
